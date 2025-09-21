@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>2024 Calendar</title>
+  <link rel="stylesheet" href="stle.css">
+</head>
+<body>
+  <h1>2024 Calendar (Philippines)</h1>
+  <div class="calendar">
+
+    <!-- JANUARY -->
+    <div class="month">
+      <h2>January 2024</h2>
+      <table>
+        <tr>
+          <th>Wk</th><th>Sun</th><th>Mon</th><th>Tue</th>
+          <th>Wed</th><th>Thu</th><th>Fri</th><th>Sat</th>
+        </tr>
+        <tr><td class="week">1</td><td></td><td class="holiday" onclick="showPopup('newyear')">1</td><td>2</td><td>3</td><td>4</td><td>5</td><td>6</td></tr>
+        <tr><td class="week">2</td><td>7</td><td>8</td><td>9</td><td>10</td><td>11</td><td>12</td><td>13</td></tr>
+        <tr><td class="week">3</td><td>14</td><td>15</td><td>16</td><td>17</td><td>18</td><td>19</td><td>20</td></tr>
+        <tr><td class="week">4</td><td>21</td><td>22</td><td>23</td><td>24</td><td>25</td><td>26</td><td>27</td></tr>
+        <tr><td class="week">5</td><td>28</td><td>29</td><td>30</td><td>31</td><td></td><td></td><td></td></tr>
+      </table>
+    </div>
+
+    <!-- FEBRUARY -->
+    <div class="month">
+      <h2>February 2024</h2>
+      <table>
+        <tr>
+          <th>Wk</th><th>Sun</th><th>Mon</th><th>Tue</th>
+          <th>Wed</th><th>Thu</th><th>Fri</th><th>Sat</th>
+        </tr>
+        <tr><td class="week">5</td><td></td><td></td><td></td><td></td><td>1</td><td>2</td><td>3</td></tr>
+        <tr><td class="week">6</td><td>4</td><td>5</td><td>6</td><td>7</td><td>8</td><td>9</td><td>10</td></tr>
+        <tr><td class="week">7</td><td>11</td><td>12</td><td>13</td><td>14</td><td>15</td><td>16</td><td>17</td></tr>
+        <tr><td class="week">8</td><td>18</td><td>19</td><td>20</td><td>21</td><td>22</td><td>23</td><td>24</td></tr>
+        <tr><td class="week">9</td><td>25</td><td>26</td><td>27</td><td>28</td><td>29</td><td></td><td></td></tr>
+      </table>
+    </div>
+
+    <!-- MARCH -->
+    <div class="month">
+      <h2>March 2024</h2>
+      <table>
+        <tr>
+          <th>Wk</th><th>Sun</th><th>Mon</th><th>Tue</th>
+          <th>Wed</th><th>Thu</th><th>Fri</th><th>Sat</th>
+        </tr>
+        <tr><td class="week">9</td><td></td><td></td><td></td><td></td><td></td><td>1</td><td>2</td></tr>
+        <tr><td class="week">10</td><td>3</td><td>4</td><td>5</td><td>6</td><td>7</td><td>8</td><td>9</td></tr>
+        <tr><td class="week">11</td><td>10</td><td>11</td><td>12</td><td>13</td><td>14</td><td>15</td><td>16</td></tr>
+        <tr><td class="week">12</td><td>17</td><td>18</td><td>19</td><td>20</td><td>21</td><td class="holiday" onclick="showPopup('maundy')">28</td><td class="holiday" onclick="showPopup('goodfriday')">29</td></tr>
+        <tr><td class="week">13</td><td>24</td><td>25</td><td>26</td><td>27</td><td></td><td></td><td>30</td></tr>
+        <tr><td class="week">14</td><td>31</td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+      </table>
+    </div>
+
+    <!-- APRIL -->
+    <div class="month">
+      <h2>April 2024</h2>
+      <table>
+        <tr>
+          <th>Wk</th><th>Sun</th><th>Mon</th><th>Tue</th>
+          <th>Wed</th><th>Thu</th><th>Fri</th><th>Sat</th>
+        </tr>
+        <tr><td class="week">14</td><td></td><td>1</td><td>2</td><td>3</td><td class="holiday" onclick="showPopup('araw')">9</td><td>5</td><td>6</td></tr>
+        <tr><td class="week">15</td><td>7</td><td>8</td><td>9</td><td>10</td><td>11</td><td>12</td><td>13</td></tr>
+        <tr><td class="week">16</td><td>14</td><td>15</td><td>16</td><td>17</td><td>18</td><td>19</td><td>20</td></tr>
+        <tr><td class="week">17</td><td>21</td><td>22</td><td>23</td><td>24</td><td>25</td><td>26</td><td>27</td></tr>
+        <tr><td class="week">18</td><td>28</td><td>29</td><td>30</td><td></td><td></td><td></td><td></td></tr>
+      </table>
+    </div>
+
+    <!-- MAY -->
+    <div class="month">
+      <h2>May 2024</h2>
+      <table>
+        <tr>
+          <th>Wk</th><th>Sun</th><th>Mon</th><th>Tue</th>
+          <th>Wed</th><th>Thu</th><th>Fri</th><th>Sat</th>
+        </tr>
+        <tr><td class="week">18</td><td></td><td></td><td></td><td>1</td><td class="holiday" onclick="showPopup('labor')">1</td><td>3</td><td>4</td></tr>
+        <tr><td class="week">19</td><td>5</td><td>6</td><td>7</td><td>8</td><td>9</td><td>10</td><td>11</td></tr>
+        <tr><td class="week">20</td><td>12</td><td>13</td><td>14</td><td>15</td><td>16</td><td>17</td><td>18</td></tr>
+        <tr><td class="week">21</td><td>19</td><td>20</td><td>21</td><td>22</td><td>23</td><td>24</td><td>25</td></tr>
+        <tr><td class="week">22</td><td>26</td><td>27</td><td>28</td><td>29</td><td>30</td><td>31</td><td></td></tr>
+      </table>
+    </div>
+
+    <!-- JUNE -->
+    <div class="month">
+      <h2>June 2024</h2>
+      <table>
+        <tr>
+          <th>Wk</th><th>Sun</th><th>Mon</th><th>Tue</th>
+          <th>Wed</th><th>Thu</th><th>Fri</th><th>Sat</th>
+        </tr>
+        <tr><td class="week">22</td><td></td><td></td><td></td><td></td><td></td><td></td><td>1</td></tr>
+        <tr><td class="week">23</td><td>2</td><td>3</td><td>4</td><td>5</td><td>6</td><td>7</td><td>8</td></tr>
+        <tr><td class="week">24</td><td>9</td><td>10</td><td>11</td><td class="holiday" onclick="showPopup('independence')">12</td><td>13</td><td>14</td><td>15</td></tr>
+        <tr><td class="week">25</td><td>16</td><td>17</td><td>18</td><td>19</td><td>20</td><td>21</td><td>22</td></tr>
+        <tr><td class="week">26</td><td>23</td><td>24</td><td>25</td><td>26</td><td>27</td><td>28</td><td>29</td></tr>
+        <tr><td class="week">27</td><td>30</td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+      </table>
+    </div>
+
+    <!-- JULY -->
+    <div class="month">
+      <h2>July 2024</h2>
+      <table>
+        <tr>
+          <th>Wk</th><th>Sun</th><th>Mon</th><th>Tue</th>
+          <th>Wed</th><th>Thu</th><th>Fri</th><th>Sat</th>
+        </tr>
+        <tr><td class="week">27</td><td></td><td>1</td><td>2</td><td>3</td><td>4</td><td>5</td><td>6</td></tr>
+        <tr><td class="week">28</td><td>7</td><td>8</td><td>9</td><td>10</td><td>11</td><td>12</td><td>13</td></tr>
+        <tr><td class="week">29</td><td>14</td><td>15</td><td>16</td><td>17</td><td>18</td><td>19</td><td>20</td></tr>
+        <tr><td class="week">30</td><td>21</td><td>22</td><td>23</td><td>24</td><td>25</td><td>26</td><td>27</td></tr>
+        <tr><td class="week">31</td><td>28</td><td>29</td><td>30</td><td>31</td><td></td><td></td><td></td></tr>
+      </table>
+    </div>
+
+    <!-- AUGUST -->
+    <div class="month">
+      <h2>August 2024</h2>
+      <table>
+        <tr>
+          <th>Wk</th><th>Sun</th><th>Mon</th><th>Tue</th>
+          <th>Wed</th><th>Thu</th><th>Fri</th><th>Sat</th>
+        </tr>
+        <tr><td class="week">31</td><td></td><td></td><td></td><td></td><td>1</td><td>2</td><td>3</td></tr>
+        <tr><td class="week">32</td><td>4</td><td>5</td><td>6</td><td>7</td><td>8</td><td>9</td><td>10</td></tr>
+        <tr><td class="week">33</td><td>11</td><td>12</td><td>13</td><td>14</td><td>15</td><td>16</td><td>17</td></tr>
+        <tr><td class="week">34</td><td>18</td><td>19</td><td>20</td><td>21</td><td>22</td><td>23</td><td>24</td></tr>
+        <tr><td class="week">35</td><td>25</td><td class="holiday" onclick="showPopup('heroes')">26</td><td>27</td><td>28</td><td>29</td><td>30</td><td>31</td></tr>
+      </table>
+    </div>
+
+    <!-- SEPTEMBER -->
+    <div class="month">
+      <h2>September 2024</h2>
+      <table>
+        <tr>
+          <th>Wk</th><th>Sun</th><th>Mon</th><th>Tue</th>
+          <th>Wed</th><th>Thu</th><th>Fri</th><th>Sat</th>
+        </tr>
+        <tr><td class="week">35</td><td>1</td><td>2</td><td>3</td><td>4</td><td>5</td><td>6</td><td>7</td></tr>
+        <tr><td class="week">36</td><td>8</td><td>9</td><td>10</td><td>11</td><td>12</td><td>13</td><td>14</td></tr>
+        <tr><td class="week">37</td><td>15</td><td>16</td><td>17</td><td>18</td><td>19</td><td>20</td><td>21</td></tr>
+        <tr><td class="week">38</td><td>22</td><td>23</td><td>24</td><td>25</td><td>26</td><td>27</td><td>28</td></tr>
+        <tr><td class="week">39</td><td>29</td><td>30</td><td></td><td></td><td></td><td></td><td></td></tr>
+      </table>
+    </div>
+
+    <!-- OCTOBER -->
+    <div class="month">
+      <h2>October 2024</h2>
+      <table>
+        <tr>
+          <th>Wk</th><th>Sun</th><th>Mon</th><th>Tue</th>
+          <th>Wed</th><th>Thu</th><th>Fri</th><th>Sat</th>
+        </tr>
+        <tr><td class="week">39</td><td></td><td></td><td>1</td><td>2</td><td>3</td><td>4</td><td>5</td></tr>
+        <tr><td class="week">40</td><td>6</td><td>7</td><td>8</td><td>9</td><td>10</td><td>11</td><td>12</td></tr>
+        <tr><td class="week">41</td><td>13</td><td>14</td><td>15</td><td>16</td><td>17</td><td>18</td><td>19</td></tr>
+        <tr><td class="week">42</td><td>20</td><td>21</td><td>22</td><td>23</td><td>24</td><td>25</td><td>26</td></tr>
+        <tr><td class="week">43</td><td>27</td><td>28</td><td>29</td><td>30</td><td>31</td><td></td><td></td></tr>
+      </table>
+    </div>
+
+    <!-- NOVEMBER -->
+    <div class="month">
+      <h2>November 2024</h2>
+      <table>
+        <tr>
+          <th>Wk</th><th>Sun</th><th>Mon</th><th>Tue</th>
+          <th>Wed</th><th>Thu</th><th>Fri</th><th>Sat</th>
+        </tr>
+        <tr><td class="week">44</td><td></td><td></td><td></td><td></td><td></td><td>1</td><td>2</td></tr>
+        <tr><td class="week">45</td><td>3</td><td>4</td><td>5</td><td>6</td><td>7</td><td>8</td><td>9</td></tr>
+        <tr><td class="week">46</td><td>10</td><td>11</td><td>12</td><td>13</td><td>14</td><td>15</td><td>16</td></tr>
+        <tr><td class="week">47</td><td>17</td><td>18</td><td>19</td><td>20</td><td>21</td><td>22</td><td>23</td></tr>
+        <tr><td class="week">48</td><td>24</td><td>25</td><td>26</td><td>27</td><td>28</td><td class="holiday" onclick="showPopup('bonifacio')">29</td><td>30</td></tr>
+      </table>
+    </div>
+
+    <!-- DECEMBER -->
+    <div class="month">
+      <h2>December 2024</h2>
+      <table>
+        <tr>
+          <th>Wk</th><th>Sun</th><th>Mon</th><th>Tue</th>
+          <th>Wed</th><th>Thu</th><th>Fri</th><th>Sat</th>
+        </tr>
+        <tr><td class="week">48</td><td>1</td><td>2</td><td>3</td><td>4</td><td>5</td><td>6</td><td>7</td></tr>
+        <tr><td class="week">49</td><td>8</td><td>9</td><td>10</td><td>11</td><td>12</td><td>13</td><td>14</td></tr>
+        <tr><td class="week">50</td><td>15</td><td>16</td><td>17</td><td>18</td><td>19</td><td>20</td><td>21</td></tr>
+        <tr><td class="week">51</td><td>22</td><td>23</td><td>24</td><td class="holiday" onclick="showPopup('christmas')">25</td><td>26</td><td>27</td><td>28</td></tr>
+        <tr><td class="week">52</td><td>29</td><td class="holiday" onclick="showPopup('rizal')">30</td><td>31</td><td></td><td></td><td></td><td></td></tr>
+      </table>
+    </div>
+
+  </div>
+
+  <!-- Popup -->
+  <div id="popup" class="popup">
+    <div class="popup-content">
+      <h3 id="holiday-title"></h3>
+      <img id="holiday-img" src="" alt="Holiday">
+      <p id="holiday-desc"></p>
+      <button class="close" onclick="closePopup()">Close</button>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

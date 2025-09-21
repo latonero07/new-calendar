@@ -1,0 +1,80 @@
+ body {
+      font-family: Arial, sans-serif;
+      background: #f8f8f8;
+      margin: 20px;
+    }
+    h1 {
+      text-align: center;
+      margin-bottom: 20px;
+    }
+    .calendar {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 20px;
+    }
+    .month {
+      background: white;
+      border: 1px solid #ddd;
+      border-radius: 10px;
+      padding: 10px;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+    }
+    .month h2 {
+      text-align: center;
+      margin-bottom: 10px;
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      font-size: 11px;
+    }
+    th, td {
+      font-size: 20px;
+      text-align: center;
+      padding: 4px;
+      border: 1px solid #eee;
+    }
+    th {
+      background: #333;
+      color: white;
+    }
+    .holiday {
+      font-size: 20px;
+      background: #ffcccc;
+      cursor: pointer;
+      font-weight: bold;
+    }
+    .week {
+      background: #eee;
+      font-size: 20px;
+      color: #444;
+    }
+    /* Popup */
+    .popup {
+      display: none;
+      position: fixed;
+      top: 0; left: 0; right: 0; bottom: 0;
+      background: rgba(0,0,0,0.6);
+      justify-content: center;
+      align-items: center;
+    }
+    .popup-content {
+      background: white;
+      padding: 20px;
+      border-radius: 10px;
+      width: 500px;
+      text-align: center;
+    }
+    .popup-content img {
+      width: 100%;
+      margin: 10px 0;
+      border-radius: 8px;
+    }
+    .close {
+      background: #333;
+      color: white;
+      padding: 5px 10px;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+    }
